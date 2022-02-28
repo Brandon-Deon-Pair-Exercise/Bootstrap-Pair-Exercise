@@ -12,13 +12,14 @@
         nav {
             z-index: 2;
             position: relative;
+
         }
 
         nav > ul {
             list-style-type: none;
             border:0;
             padding-top: 30px;
-
+            display: flex;
         }
 
         .order-6 {
@@ -96,12 +97,13 @@
 
 
         .bg-container {
+            display: flex;
             border-top: 55px solid #f0f0f0;
             background-color: #ffffff;
             height: 125px;
             width: 100%;
             margin:0;
-            padding:0;
+            padding:5em;
             text-align: center;
             z-index: 1;
             position: absolute;
@@ -111,8 +113,8 @@
 
 
         .logo {
-            height: 105px;
-            width: 105px;
+            height: 125px;
+            width: 125px;
         }
 
         .logo-text {
@@ -125,25 +127,35 @@
 <body>
     <!-- Page Header and NAV -->
     <header>
-        <div class="bg-container text-center">
-            <div class="container-fluid pt-5 pb-3">
-                <h1 class="fw-bolder">codeup design</h1>
-            </div>
-            <!--  contains white strip behind the nav    -->
+<!--        <div class="bg-container text-center">-->
+<!--            <div class="container-fluid pt-5 pb-3">-->
+<!--                <h1 class="fw-bolder">codeup design</h1>-->
+<!--            </div>-->
+<!--              contains white strip behind the nav-->
         </div>
 
-        <!--   Nav Start     -->
+<!--           Nav Start-->
         <nav class="m-auto">
             <!--    The order of some nav elements will change depending on the viewport size     -->
             <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start ">
-                <li class="p-2 order-md-1 order-sm-3 order-3"><img src="images/logo.png" class="logo"></li>
-<!--                <li class="p-2 order-md-3 order-sm-8 order-6 wrap-it"><span class="logo-text">codeup design</span></li>-->
+                <li class="p-2 order-md-1 order-sm-3 order-3"><img src="assets/logo.png" class="logo"></li>
+                <li class="p-2 order-md-3 order-sm-8 order-6 wrap-it"><span class="logo-text">codeup design</span></li>
+                <div class=“w-100-d-md-none”></div>
                 <li class="ml-auto-md p-2 order-md-3 order-sm-1 order-1 text-uppercase" ><a href="#"> Services</a></li>
                 <li class="p-2 order-md-4 order-sm-2 order-2 text-uppercase"><a href="#">Work</a> </li>
                 <li class="p-2 order-sm-4 order-4 text-uppercase"><a href="#">Blog</a></li>
                 <li class="p-2 order-sm-5 order-5 text-uppercase"><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <br>
+        <h3>
+          VISUAL DESIGN & WEB DEVELOPMENT
+        </h3>
+        <br>
+        <h3>
+            FROM PARK CITY, UTAH
+        </h3>
+
 
         <!-- sub header section !-->
         <hr>
