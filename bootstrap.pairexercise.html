@@ -9,6 +9,16 @@
     <style>
 
         /* Styles associated with NAV */
+
+
+
+
+        body {
+            background-color: #f5f1f1;
+
+        }
+
+
         nav {
             z-index: 2;
             position: relative;
@@ -25,7 +35,6 @@
         .order-6 {
             order: 6;
         }
-
 
 
         @media (min-width: 576px) {
@@ -97,18 +106,25 @@
 
 
         .bg-container {
-            display: flex;
             border-top: 55px solid #f0f0f0;
             background-color: #ffffff;
             height: 125px;
             width: 100%;
             margin:0;
-            padding:5em;
+            padding:0;
             text-align: center;
             z-index: 1;
             position: absolute;
             opacity: 1;
 
+        }
+
+        .dot {
+            height: 25px;
+            width: 25px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
         }
 
 
@@ -122,49 +138,56 @@
             font-size: 50px;
             text-align: center;
             display: block;
+        }
+
+        h1 {
+            font-size: 64px;
+
+        }
+
+        h2 {
+            font-size: 48px;
+        }
+
     </style>
 </head>
 <body>
     <!-- Page Header and NAV -->
     <header>
-<!--        <div class="bg-container text-center">-->
-<!--            <div class="container-fluid pt-5 pb-3">-->
-<!--                <h1 class="fw-bolder">codeup design</h1>-->
-<!--            </div>-->
-<!--              contains white strip behind the nav-->
+        <div class="bg-container text-center">
+            <div class="container-fluid pt-5 pb-3"></div>
+<!--
+             contains white strip behind the nav-->
         </div>
 
 <!--           Nav Start-->
+
         <nav class="m-auto">
             <!--    The order of some nav elements will change depending on the viewport size     -->
             <ul class="d-flex flex-row flex-sm-row ml-auto-sm mr-auto-sm flex-md-row align-items-center flex-wrap flex-sm-wrap justify-content-center justify-content-md-start ">
-<<<<<<< HEAD:boostrap.pairexercise.html
-                <li class="p-2 order-md-1 order-sm-3 order-3"><img src="/images/logo.png" class="logo"></li>
-<!--                <li class="p-2 order-md-3 order-sm-8 order-6 wrap-it"><span class="logo-text">codeup design</span></li>-->
-=======
                 <li class="p-2 order-md-1 order-sm-3 order-3"><img src="assets/logo.png" class="logo"></li>
                 <li class="p-2 order-md-3 order-sm-8 order-6 wrap-it"><span class="logo-text">codeup design</span></li>
-                <div class=“w-100-d-md-none”></div>
->>>>>>> a11b3e7e91020eab2d66dd75f14df6bbd6079bb2:bootstrap.pairexercise.html
                 <li class="ml-auto-md p-2 order-md-3 order-sm-1 order-1 text-uppercase" ><a href="#"> Services</a></li>
                 <li class="p-2 order-md-4 order-sm-2 order-2 text-uppercase"><a href="#">Work</a> </li>
                 <li class="p-2 order-sm-4 order-4 text-uppercase"><a href="#">Blog</a></li>
                 <li class="p-2 order-sm-5 order-5 text-uppercase"><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <br>
-        <h3>
-          VISUAL DESIGN & WEB DEVELOPMENT
-        </h3>
-        <br>
-        <h3>
-            FROM PARK CITY, UTAH
-        </h3>
 
+        <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+
+        <h2>FROM PARK CITY, UTAH</h2>
 
         <!-- sub header section !-->
-        <hr>
+
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+
     </header>
+
 
 </body>
 </html>
